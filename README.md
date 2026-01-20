@@ -1,4 +1,4 @@
-# ⚡ Blitzschlag '26 - Official App
+# Blitzschlag '26 - Official App
 
 The official companion application for **Blitzschlag 2026**, the annual cultural festival of **MNIT Jaipur**. This app serves as a one-stop destination for participants to register for events, buy passes, view schedules, and stay updated with real-time notifications.
 
@@ -6,41 +6,41 @@ Developed by students of **MNIT Jaipur**.
 
 ---
 
-## 📱 Features
+## Features
 
-### 🔐 Authentication & Security
+### Authentication & Security
 
 - **Hybrid Login:** Secure login via Email/Password and **Google Sign-In**.
 - **Password Recovery:** Robust "Forgot Password" flow using Firebase Deep Linking (opens directly in-app).
 - **Role-Based Access:** Distinct UI and permissions for Participants, Admins, and General Secretaries.
 
-### 🎟️ Event & Pass Management
+### Event & Pass Management
 
 - **Dynamic Cart System:** Add multiple passes (Festival, Galaxy, Day-wise) to a cart.
 - **Flagship Event Integration:** Conditional logic allows users to select a flagship event when purchasing premium passes.
 - **Payment Verification:** Seamlessly upload payment screenshots directly from the gallery using `expo-image-picker`.
 - **Search:** Advanced floating search bar to find events, clubs, or venues instantly.
 
-### 📅 Schedule & Timeline
+### Schedule & Timeline
 
 - **Interactive Timeline:** Day-wise event breakdown (Day 0 - Day 3).
 - **Immersive UI:** Custom continuous zoom animations on the schedule header.
 - **Sorting:** Auto-sorts events chronologically for easy navigation.
 
-### 🔔 Notifications
+### Notifications
 
 - **Push Notifications:** Integration with Expo Notifications service.
 - **Custom Sounds:** Unique alert sounds for fest announcements.
 - **Notification History:** In-app notification center grouped by date (Today/Yesterday) with swipe-to-delete functionality.
 
-### 👤 Profile & Support
+### Profile & Support
 
 - **User Dashboard:** View role badges, personal details, and ticket status.
 - **Support:** Easy access to contact information and developer credits.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React Native (Expo SDK 50+)
 - **Language:** JavaScript / JSX
@@ -53,7 +53,7 @@ Developed by students of **MNIT Jaipur**.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up the project locally.
 
@@ -85,6 +85,7 @@ Follow these instructions to set up the project locally.
     - Place your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) in the root directory.
 
 4.  **Run the App**
+
     ```bash
     npx expo start
     ```
@@ -94,7 +95,7 @@ Follow these instructions to set up the project locally.
 
 ---
 
-## 🔑 Firebase & Deep Linking Setup
+## Firebase & Deep Linking Setup
 
 To ensure **Google Login** and **Password Reset Deep Linking** work correctly:
 
@@ -104,22 +105,22 @@ To ensure **Google Login** and **Password Reset Deep Linking** work correctly:
 
 ---
 
-## 👥 Developers (MNIT Jaipur)
+## Developers (MNIT Jaipur)
 
-| Name              | Role               |
-| :---------------- | :----------------- |
-| **Aryan Mishra**  | Lead Developer     |
-| **Lucky Agrawal** | Frontend Developer |
+| Name              | Role              |
+| :---------------- | :---------------- |
+| **Aryan Mishra**  | Native Developer  |
+| **Lucky Agrawal** | Backend Developer |
 
 ---
 
-## 📄 License
+## License
 
 This project is proprietary to **Blitzschlag, MNIT Jaipur**. Unauthorized copying or distribution is strictly prohibited.
 
 ---
 
-### 📞 Contact
+### Contact
 
 For technical support or bug reports, please contact:
 **Email:** blitzschlag@mnit.ac.in
